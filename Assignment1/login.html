@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="nav">
+        <div class="logo">
+          <img
+            src="img/cropped-AltSchool-Logo-1.webp"
+            alt="logo of alt school"
+          />
+        </div>
+        <nav class="nav_bar">
+          <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="Contact.html"> Contact Me</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html" class="main">Login</a></li>
+            <li><a href="calculator.html"> Calculator</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="login_form" class="main_container">
+      <h3>Please enter your details to login</h3>
+      <form action="">
+        <div>
+          <label for="username">Username</label> <br />
+          <input
+            type="text"
+            name="user_name"
+            id="user_name"
+            placeholder="Enter your preferred Username"
+          />
+        </div>
+        <label for="password">Password</label> <br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Type in your Password"
+        />
+
+        <input type="submit" value="Sign in" class="btn_contact" />
+      </form>
+    </div>
+  </body>
+</html>
